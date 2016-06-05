@@ -5,7 +5,7 @@
    * [Angularjs启动过程](angularjs_part1_start.md)
    * [模块(module)](angularjs_part1_module.md)
    * [作用域(scope)](angularjs_part1_scope.md)
-   * 控制器(controller)
+   * [控制器(controller)](angularjs_part1_controller.md)
    * 表达式(expression)
    * 过滤器(filter)
    * 指令(directive)
