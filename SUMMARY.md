@@ -10,5 +10,6 @@
    * 过滤器(filter)
    * 指令(directive)
    * 路由(route)
+   * 服务(service)
 * [知识点](README.md)
 
