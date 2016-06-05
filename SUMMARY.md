@@ -18,6 +18,6 @@
    * [表单验证](angularjs_part1_form_validation.md)
    * [$parse和$eval](angularjs_part2_parse_eval.md)
    * [$observe和#watch](angularjs_part2_observe_watch.md)
-   * $http拦截器
+   * [$http拦截器](angularjs_part2_http_intercepter.md)
    * 依赖注入
 
