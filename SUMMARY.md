@@ -7,5 +7,6 @@
    * 作用域(scope)
    * 控制器(controller)
    * 表达式(expression)
+   * 过滤器(filter)
 * [知识点](README.md)
 
