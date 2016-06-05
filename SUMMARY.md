@@ -14,7 +14,7 @@
    * [XHR](angularjs_part1_xhr.md)
 * [进阶知识](README.md)
    * [指令的生命周期](angularjs_part2_directive_lifecycle.md)
-   * 脏检查机制
+   * [脏检查机制](angularjs_part1_dirty_check.md)
    * 表单验证
    * $parse和$eval
    * $observe和#watch
