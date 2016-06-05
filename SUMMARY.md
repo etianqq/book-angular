@@ -8,5 +8,6 @@
    * 控制器(controller)
    * 表达式(expression)
    * 过滤器(filter)
+   * 指令(directive)
 * [知识点](README.md)
 
