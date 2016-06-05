@@ -9,7 +9,7 @@
    * [表达式(expression)](angularjs_part1_expression.md)
    * [过滤器(filter)](angularjs_part1_filter.md)
    * [指令(directive)](angularjs_part1_directive.md)
-   * 路由(route)
+   * [路由(route)](angularjs_part1_route.md)
    * 服务(service)
    * XHR
 * [知识点](README.md)
