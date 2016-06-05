@@ -19,4 +19,5 @@
    * $parse和$eval
    * $observe和#watch
    * $http拦截器
+   * 依赖注入
 
