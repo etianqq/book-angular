@@ -10,7 +10,7 @@
    * [过滤器(filter)](angularjs_part1_filter.md)
    * [指令(directive)](angularjs_part1_directive.md)
    * [路由(route)](angularjs_part1_route.md)
-   * 服务(service)
+   * [服务(service)](angularjs_part1_service.md)
    * XHR
 * [知识点](README.md)
 
