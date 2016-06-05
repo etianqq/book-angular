@@ -13,4 +13,5 @@
    * [服务(service)](angularjs_part1_service.md)
    * [XHR](angularjs_part1_xhr.md)
 * [知识点](README.md)
+   * 指令的生命周期
 
