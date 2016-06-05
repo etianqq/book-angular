@@ -8,7 +8,7 @@
    * [控制器(controller)](angularjs_part1_controller.md)
    * [表达式(expression)](angularjs_part1_expression.md)
    * [过滤器(filter)](angularjs_part1_filter.md)
-   * 指令(directive)
+   * [指令(directive)](angularjs_part1_directive.md)
    * 路由(route)
    * 服务(service)
    * XHR
