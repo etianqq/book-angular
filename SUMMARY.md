@@ -12,6 +12,6 @@
    * [路由(route)](angularjs_part1_route.md)
    * [服务(service)](angularjs_part1_service.md)
    * [XHR](angularjs_part1_xhr.md)
-* [知识点](README.md)
+* [背后的原理](README.md)
    * 指令的生命周期
 
