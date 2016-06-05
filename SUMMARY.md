@@ -15,7 +15,7 @@
 * [进阶知识](README.md)
    * [指令的生命周期](angularjs_part2_directive_lifecycle.md)
    * [脏检查机制](angularjs_part1_dirty_check.md)
-   * 表单验证
+   * [表单验证](angularjs_part1_form_validation.md)
    * $parse和$eval
    * $observe和#watch
    * $http拦截器
