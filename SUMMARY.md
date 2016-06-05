@@ -14,4 +14,5 @@
    * [XHR](angularjs_part1_xhr.md)
 * [背后的原理](README.md)
    * 指令的生命周期
+   * 脏检查机制
 
