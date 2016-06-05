@@ -4,5 +4,6 @@
    * [简介](angularjs_part1_intro.md)
    * [Angularjs启动过程](angularjs_part1_start.md)
    * 模块(module)
+   * 作用域(scope)
 * [知识点](README.md)
 
