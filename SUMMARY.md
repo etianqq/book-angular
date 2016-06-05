@@ -11,5 +11,6 @@
    * 指令(directive)
    * 路由(route)
    * 服务(service)
+   * XHR
 * [知识点](README.md)
 
