@@ -9,5 +9,6 @@
    * 表达式(expression)
    * 过滤器(filter)
    * 指令(directive)
+   * 路由(route)
 * [知识点](README.md)
 
