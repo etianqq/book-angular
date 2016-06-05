@@ -17,4 +17,5 @@
    * 脏检查机制
    * 表单验证
    * $parse和$eval
+   *  $observe和#watch
 
