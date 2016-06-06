@@ -20,4 +20,5 @@
    * [$observe和#watch](angularjs_part2_observe_watch.md)
    * [$http拦截器](angularjs_part2_http_intercepter.md)
    * [依赖注入](angularjs_part2_inject.md)
+   * 进阶知识
 
