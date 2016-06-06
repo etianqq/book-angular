@@ -5,14 +5,12 @@
       <div ng-controller="FirstController">
         <h4>The simplest adding machine ever</h4>
         <button ng-click="add(1)" class="button">Add</button>
-        <a ng-click="subtract(1)" class="button alert">Subtract</a>
         <h4>Current count: {{ counter }}</h4>
       </div>
       -----------------------------------------------------------------
       app.controller('FirstController', function($scope) {
         $scope.counter = 0;
         $scope.add = function(amount) { $scope.counter += amount; };
-        $scope.subtract = function(amount) { $scope.counter -= amount; };
       });
       
 ####Controller as vm
