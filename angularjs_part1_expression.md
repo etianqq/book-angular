@@ -2,6 +2,6 @@
 使用{{expression}}
 
       <div ng-controller="MyController">
-        <input ng-model="expr" type="text" placeholder="Enter an expression" />
+        <input ng-model="expr" type="text" />
         <h2>{{ parsedValue }}</h2>
       </div>
