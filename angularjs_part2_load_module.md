@@ -16,3 +16,5 @@ Angularjs模块可以在被加载和执行前对其自身进行配置。
 | Service | Yes | No | No |
 | Factory | Yes | Yes | No |
 | Provider | Yes | Yes | No |
+
+https://gist.github.com/demisx/9605099
