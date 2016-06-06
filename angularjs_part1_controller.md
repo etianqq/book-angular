@@ -3,7 +3,6 @@
 * 初始化数据，定义事件，等等
 
       <div ng-controller="FirstController">
-        <h4>The simplest adding machine ever</h4>
         <button ng-click="add(1)" class="button">Add</button>
         <h4>Current count: {{ counter }}</h4>
       </div>
