@@ -1,5 +1,6 @@
 # Summary
 
+* [Introduction](README.md)
 * [Angularjs基础知识](angularjs_part1.md)
    * [简介](angularjs_part1_intro.md)
    * [Angularjs启动过程](angularjs_part1_start.md)
@@ -20,5 +21,5 @@
    * [$observe和#watch](angularjs_part2_observe_watch.md)
    * [$http拦截器](angularjs_part2_http_intercepter.md)
    * [依赖注入](angularjs_part2_inject.md)
-   * [进阶知识](angularjs_part2.md)
+   * 模块加载
 
