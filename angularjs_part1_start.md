@@ -8,7 +8,7 @@
   * 如果在Angular脚本之前引入JQuery，则Angular会使用JQurey API;否则，启用内置的jQLite。
 4. Angular初始化
   * 按照名字创建模块
-  * 在模块中测试各类Angular对象，如Controller,Service,Directive...
+  * 在模块中注册Angular对象，如Controller,Service,Directive...
   * 注册之后，生产一个map={ojbName:callback}
   
 5. JQuery启动(浏览器触发DOMContentLoaded事件，执行callback)
