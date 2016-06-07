@@ -5,7 +5,7 @@
 2. 浏览器构建DOM tree
 
 3. JQuery初始化(挂上DOMContentLoaded)
-  * 如果Angular自己哦亲引入JQuery，则Angular会使用JQurey API;否则，启用内置的jQLite。
+  * 如果在Angular脚本之前引入JQuery，则Angular会使用JQurey API;否则，启用内置的jQLite。
 4. Angular初始化
   * 按照名字创建模块
   * 在模块中测试各类Angular对象，如Controller,Service,Directive...
