@@ -1,4 +1,4 @@
-# Angularjs启动过程
+# Angular启动过程
 ![](angular-start.jpg)
 
 1. 浏览器下载HTML/CSS/Javascript
