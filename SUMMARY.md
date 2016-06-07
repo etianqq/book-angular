@@ -21,5 +21,5 @@
    * [$parse和$eval](angularjs_part2_parse_eval.md)
    * [$observe和#watch](angularjs_part2_observe_watch.md)
    * [$http拦截器](angularjs_part2_http_intercepter.md)
-   * 脏检查机制
+   * [脏检查机制](angularjs_part2_dirty_check_md)
 
