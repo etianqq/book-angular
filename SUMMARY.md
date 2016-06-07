@@ -15,11 +15,11 @@
    * [XHR](angularjs_part1_xhr.md)
 * [进阶知识](angularjs_part2.md)
    * [模块加载](angularjs_part2_load_module.md)
+   * [依赖注入](angularjs_part2_inject.md)
    * [指令的生命周期](angularjs_part2_directive_lifecycle.md)
    * [脏检查机制](angularjs_part1_dirty_check.md)
    * [表单验证](angularjs_part1_form_validation.md)
    * [$parse和$eval](angularjs_part2_parse_eval.md)
    * [$observe和#watch](angularjs_part2_observe_watch.md)
    * [$http拦截器](angularjs_part2_http_intercepter.md)
-   * [依赖注入](angularjs_part2_inject.md)
 
