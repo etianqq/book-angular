@@ -16,7 +16,7 @@
 * [进阶知识](angularjs_part2.md)
    * [模块加载](angularjs_part2_load_module.md)
    * [依赖注入](angularjs_part2_inject.md)
-   * [脏检查机制](angularjs_part2_dirty_check_md)
+   * [脏检查机制](angularjspart2_dirty_check_md.md)
    * [指令的生命周期](angularjs_part2_directive_lifecycle.md)
    * [表单验证](angularjs_part1_form_validation.md)
    * [$parse和$eval](angularjs_part2_parse_eval.md)
