@@ -3,6 +3,7 @@
 
 1. 浏览器下载HTML/CSS/Javascript
 2. 浏览器构建DOM tree
+
 3. JQuery初始化(挂上DOMContentLoaded)
   * 如果Angular自己哦亲引入JQuery，则Angular会使用JQurey API;否则，启用内置的jQLite。
 4. Angular初始化
