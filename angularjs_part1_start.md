@@ -16,4 +16,5 @@
 5. JQuery启动(浏览器触发DOMContentLoaded事件，执行callback)
 6. Angular启动
   * 自动启动(```ng-app="myApp"```)或手动启动(```angular.bootstrap(document, ['myApp']);```)
-7.
+  
+7. 加载子模块
