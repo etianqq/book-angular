@@ -9,7 +9,7 @@
 4. Angular初始化
   * 按照名字创建模块
   * 在模块中注册Angular对象，如Controller,Service,Directive...
-  * 注册之后，生产一个map={ojbName:callback}
+  * 生成一个注册表 Registry={ojbName:callback}
   
 5. JQuery启动(浏览器触发DOMContentLoaded事件，执行callback)
 6. Angular启动
