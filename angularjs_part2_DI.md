@@ -11,3 +11,5 @@ DI-dependency injection
 
 ```controller, service/factory/provider, directive, filter, animation, config, run, decorator```
 ![](injector2.png)
+
+官网文档：[Dependency Injection](https://docs.angularjs.org/guide/di)
