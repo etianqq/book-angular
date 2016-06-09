@@ -15,12 +15,19 @@
     
  ####annotate
  有3种方法可以annotate函数：
- 1. 用数组：```['$scope', '$q', function($scope, $q) {}```
- 2. 用```$inject```属性：
+ 
+    // inferred (only works if code not minified/obfuscated)
+    $injector.invoke(function(serviceA){});
 
-  ```function myFunction($scope, $q) {}```
-  
-  ```myFunction.$inject = ['$scope', '$q'];```
- 3. ```function myFunction($scope, $q) {}```注意，在minified模式下不可以工作
+    // annotated
+    function explicit(serviceA) {};
+    explicit.$inject = ['serviceA'];
+    $injector.invoke(explicit);
+
+    // inline
+    $injector.invoke(['serviceA', function(serviceA){}]);
+
+####invoke
+
     
  
