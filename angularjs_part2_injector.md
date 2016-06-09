@@ -40,6 +40,8 @@
 
         return isObject(returnedValue) || isFunction(returnedValue) ? returnedValue : instance;
     }
+    
+![](injector2.png)
 ####the twin injectors
 $injector里面是有两个injector对象：**providerInjector**和**instanceInjector** 。前者用于config阶段，后者用于run阶段。
 
