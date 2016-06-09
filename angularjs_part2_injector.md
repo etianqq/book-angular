@@ -1,6 +1,6 @@
 # Injector
 
-[Studying the Angular JS Injector](http://taoofcode.net/studying-the-angular-injector/)
+使用apply实现依赖注入
 
 ####instance-Injector
     return {
@@ -27,7 +27,20 @@
     // inline
     $injector.invoke(['serviceA', function(serviceA){}]);
 
-####invoke
+####instantiate
+在构造函数中使用$injector
 
+      function instantiate(Type, locals) {
+        var Constructor = function() {},instance, returnedValue;
+
+        // Check if Type is annotated and use just the given function at n-1 as parameter
+        Constructor.prototype = (isArray(Type) ? Type[Type.length - 1] : Type).prototype;
+        instance = new Constructor();
+        returnedValue = invoke(Type, instance, locals);
+
+        return isObject(returnedValue) || isFunction(returnedValue) ? returnedValue : instance;
+    }
+    
+源码分析：[Studying the Angular JS Injector](http://taoofcode.net/studying-the-angular-injector/)
     
  
