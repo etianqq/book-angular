@@ -11,5 +11,3 @@ DI-dependency injection
 
 ```controller, service/factory/provider, directive, filter, animation, config, run, decorator```
 ![](injector1.png)
-
-![](injector2.png)
