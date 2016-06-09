@@ -10,4 +10,4 @@ DI-dependency injection
 * 只有下面的函数可以使用依赖注入(通过module注册的函数都可以)
 
 ```controller, service/factory/provider, directive, filter, animation, config, run, decorator```
-![](injector1.png)
+![](injector2.png)
