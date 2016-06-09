@@ -1,2 +1,0 @@
-# $observe和#watch
-
