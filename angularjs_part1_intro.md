@@ -5,7 +5,7 @@ It lets you use good old HTML (or HAML, Jade and friends!) as **your template la
 
 It automatically synchronizes data from your UI (view) with your JavaScript objects (model) through **2-way data binding**. 
 
-AngularJS teaches the browser how to do **dependency injection** and **inversion of control(?)**.
+AngularJS teaches the browser how to do **dependency injection** and **inversion of control(IoC)**.
 
 It also helps with server-side communication, taming async **callbacks with promises and deferreds**, and it makes client-side navigation and deeplinking with **hashbang urls or HTML5 pushState** a piece of cake. 
 
