@@ -13,4 +13,39 @@ AOP实用场景有：权限控制，日志模块，事务处理，性能统计�
 
 #####1. http拦截器(管道式策略)
 
+    angular.module('myApp')
+      .factory('myInterceptor',
+        function($q) {
+          var interceptor = {
+            'request': function(config) {
+                // Successful request method
+                return config; // or $q.when(config);
+             },
+            'response': function(response) {
+                // successful response
+                return response; // or $q.when(config);
+             },
+            'requestError': function(rejection) {
+                // an error happened on the request if we can recover from the error，
+                // we can return a new request or promise
+                return response; // or new promise
+                // Otherwise, we can reject the next by returning a rejection
+                // return $q.reject(rejection);
+              },
+              'responseError': function(rejection) {
+                // an error happened on the request if we can recover from the error,
+                // we can return a new response or promise
+                return rejection; // or new promise
+                // Otherwise, we can reject the next by returning a rejection
+                // return $q.reject(rejection);
+              }
+          };
+          return interceptor;
+      });
+
+    // 使用拦截器
+    angular.module('myApp')
+      .config(function($httpProvider) {
+          $httpProvider.interceptors.push('myInterceptor');
+    });
 #####2. 装饰器(运行时动态代理)
