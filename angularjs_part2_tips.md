@@ -47,6 +47,9 @@
         console.log(data); // 'Data to send'
     });
 
+####ng-if/ng-show
+* ng-if: 不创建DOM元素
+* ng-show: 用display:none将DOM元素隐藏
 
 
     
