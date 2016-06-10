@@ -50,3 +50,16 @@ AOP实用场景有：权限控制，日志模块，事务处理，性能统计�
           $httpProvider.interceptors.push('myInterceptor');
     });
 #####2. 装饰器(运行时动态代理)
+用装饰器来修饰一个服务；装饰器在config阶段运行
+
+    angular.module('myApp', [])
+      .config([ '$provide', function($provide) {
+          $provide.decorator('$log', ['$delegate', function $logDecorator($delegate) {
+            var originalWarn = $delegate.warn;
+            $delegate.warn = function decoratedWarn(msg) {
+                msg = 'Decorated Warn: ' + msg;
+                originalWarn.apply($delegate, arguments);
+            };
+            return $delegate;
+        }]);
+    }]);
