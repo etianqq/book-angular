@@ -25,3 +25,22 @@ Angularjs模块可以在被加载和执行前对其自身进行配置。
         $filterProvider.register('filterName', ...);
     });
 ####2. 运行块(run block)
+在injector创建之后被执行，是Angular应用中第一个被执行的方法。
+
+* 类似min方法
+* 因为与应用本身耦合度高所以难以单元测试
+* 通常用来注册全局的事件监听器，配置服务/$rootScope/时间...
+
+例子：每次路由变化时，需要执行一个函数来验证用户权限
+
+    angular.module('myApp', [])
+      .run(function($rootScope, AuthService) { 
+         $rootScope.$on('$routeChangeStart', function(evt, next, current) {
+            // If the user is NOT logged in
+            if (!AuthService.userLoggedIn()) {
+                if (next.templateUrl === "login.html") {
+                // Already heading to the login route so no need to redirect
+                } else { $location.path('/login');}
+            }
+          });
+      });
