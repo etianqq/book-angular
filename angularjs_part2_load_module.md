@@ -2,19 +2,25 @@
 
 Angularjs模块可以在被加载和执行前对其自身进行配置。
 
-#####1. 配置
-可在应用启动前进行修改
+#####1. 配置-config
+仅仅只有providers和constants可以被注入到配置块中
 
     angular.module('myApp', [])
       .config(function($provide) { ...})
-      .provider('myProvider', function () {...});
-      
-| Provider | Singleton | Instantiable | Configurable |
-| -- | -- | -- | -- |
-| Constant | Yes | No | No |
-| Value | Yes | No | No |
-| Service | Yes | No | No |
-| Factory | Yes | Yes | No |
-| Provider | Yes | Yes | No |
+实际上，基于provider，有很多config的语法糖，如下例：
 
-https://gist.github.com/demisx/9605099
+    angular.module('myModule', []).
+      value('a', 123).
+      factory('a', function() { return 123; }).
+      directive('directiveName', ...).
+      filter('filterName', ...);
+
+    // is same as
+    
+    angular.module('myModule', []).
+      config(function($provide, $compileProvider, $filterProvider) {
+        $provide.value('a', 123);
+        $provide.factory('a', function() { return 123; });
+        $compileProvider.directive('directiveName', ...);
+        $filterProvider.register('filterName', ...);
+    });
