@@ -2,7 +2,7 @@
 
 Angularjs模块可以在被加载和执行前对其自身进行配置。
 
-#####1. 配置-config
+####1. 配置块(config block)
 仅仅只有providers和constants可以被注入到配置块中
 
     angular.module('myApp', [])
@@ -24,3 +24,4 @@ Angularjs模块可以在被加载和执行前对其自身进行配置。
         $compileProvider.directive('directiveName', ...);
         $filterProvider.register('filterName', ...);
     });
+####2. 运行块(run block)
