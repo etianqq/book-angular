@@ -22,3 +22,8 @@
 两种实现方式：
 * ```{{::text}}```
 * 使用bindonce库:[https://github.com/Pasvaz/bindonce](https://github.com/Pasvaz/bindonce)
+
+####4. $sce服务
+“严格情境转义(strict contextual escaping)”服务，对危险的字符串进行检测，使其可以被安全的渲染出来，输出HTML(防止XSS攻击)。
+
+提供的方法有：trustAsHtml, trustAsUrl, trustAsResourceUrl, trustAsJs
