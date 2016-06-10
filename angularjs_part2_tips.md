@@ -27,3 +27,26 @@
 “严格情境转义(strict contextual escaping)”服务，对危险的字符串进行检测，使其可以被安全的渲染出来，输出HTML(防止XSS攻击)。
 
 提供的方法有：trustAsHtml, trustAsUrl, trustAsResourceUrl, trustAsJs
+
+####$broadcast,$emit,$on
+* $broadcast：在$scope中向下广播事件
+* $emit: 在$scope中向上广播事件
+* $on: 监听事件
+
+
+    // firing an event upwards
+    $scope.$emit('myCustomEvent', 'Data to send');
+    
+    // firing an event downwards
+    $scope.$broadcast('myCustomEvent', {
+        someProp: 'Sending you an Object!' // send whatever you want
+    });
+    
+    // listen for the event in the relevant $scope
+    $scope.$on('myCustomEvent', function (event, data) {
+        console.log(data); // 'Data to send'
+    });
+
+
+
+    
