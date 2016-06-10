@@ -16,7 +16,7 @@
   * 自动启动(```ng-app="myApp"```)或手动启动(```angular.bootstrap(document, ['myApp']);```)
   
 7. **加载**子模块
-  * 创建注入器(injector)，把它关联到DOM节点上(样之前注册好的那些Angular对象才能被使用)
+  * 创建注入器(injector)，把它关联到DOM节点上(之前注册好的那些Angular对象才能被使用)
   * 模块中注册的config callback，会执行！(config callback只能使用Constant对象和Provider类)
 
 8. **启动**子模块
