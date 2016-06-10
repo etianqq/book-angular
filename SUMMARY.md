@@ -22,4 +22,5 @@
    * [表单验证](angularjs_part1_form_validation.md)
    * [AOP机制](angularjs_part2_AOP.md)
    * [杂项知识点](angularjs_part2_tips.md)
+   * 例子
 
