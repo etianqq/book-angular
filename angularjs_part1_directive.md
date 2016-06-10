@@ -20,8 +20,8 @@
                       pre: function(scope, iElement, iAttrs, controller) { ... },
                       post: function(scope, iElement, iAttrs, controller) { ... }
                    }
-              // 或者     
-              return function postLink(...) { ... }
+                  // 或者     
+                  return function postLink(...) { ... }
               }
         };
      });
