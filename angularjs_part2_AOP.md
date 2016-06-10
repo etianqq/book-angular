@@ -52,6 +52,7 @@ AOP实用场景有：权限控制，日志模块，事务处理，性能统计�
 #####2. 装饰器(运行时动态代理)
 用装饰器来修饰一个服务；装饰器在config阶段运行
 
+* 在provider中实现decorator
     angular.module('myApp', [])
       .config([ '$provide', function($provide) {
           $provide.decorator('$log', ['$delegate', function $logDecorator($delegate) {
@@ -63,3 +64,7 @@ AOP实用场景有：权限控制，日志模块，事务处理，性能统计�
             return $delegate;
         }]);
     }]);
+    
+* 在module中实现decorator
+  
+  ```angular.module('myApp').decorator('theFactory', moduleDecoratorFn);``` 
