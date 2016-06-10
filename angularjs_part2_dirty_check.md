@@ -13,17 +13,7 @@ Angular将双向绑定转换为一堆watch表达式，然后递归检查这些wa
 #####$evalAsync
 
 After a watcher is registered with the scope, the listener fn is called asynchronously (via $evalAsync) to initialize the watcher.
+异步执行，它会将表达式缓存起来
 
-#####$observe和$watch
-* $observe: 监听DOM中属性的变化，只能在directive的link函数中使用。
-* $watch: 监听scope中属性值的变化
 
-如果directive的DOM上使用{{}}表达式，那么应该用observe。其他大多数情况使用watch。
-
-#####如果都是静态数据，不需要watch，怎么做？
-使用**one-time**绑定(Angular 1.3之后引入的)
-
-两种实现方式：
-* ```{{::text}}```
-* 使用bindonce库:[https://github.com/Pasvaz/bindonce](https://github.com/Pasvaz/bindonce)
 
