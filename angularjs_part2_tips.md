@@ -23,12 +23,12 @@
 * ```{{::text}}```
 * 使用bindonce库:[https://github.com/Pasvaz/bindonce](https://github.com/Pasvaz/bindonce)
 
-####4. $sce服务
+####4.$sce服务
 “严格情境转义(strict contextual escaping)”服务，对危险的字符串进行检测，使其可以被安全的渲染出来，输出HTML(防止XSS攻击)。
 
 提供的方法有：trustAsHtml, trustAsUrl, trustAsResourceUrl, trustAsJs
 
-####$broadcast,$emit,$on
+####5.$broadcast,$emit,$on
 * $broadcast：在$scope中向下广播事件
 * $emit: 在$scope中向上广播事件
 * $on: 监听事件
@@ -47,7 +47,7 @@
         console.log(data); // 'Data to send'
     });
 
-####ng-if/ng-show
+####6.ng-if/ng-show
 * ng-if: 不创建DOM元素
 * ng-show: 用display:none将DOM元素隐藏
 
