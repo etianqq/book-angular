@@ -13,6 +13,7 @@ AOP实用场景有：权限控制，日志模块，事务处理，性能统计�
 
 #####1. http拦截器(管道式策略)
 
+    //定义拦截器
     angular.module('myApp')
       .factory('myInterceptor',
         function($q) {
