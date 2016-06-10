@@ -16,15 +16,18 @@
  ####annotate
  有3种方法可以annotate函数：
  
+    // 1.按名推断式注入
     // inferred (only works if code not minified/obfuscated)
     $injector.invoke(function(serviceA){});
 
-    // annotated
+    // 2.$inject标记式声明注入
+    // annotated 
     function explicit(serviceA) {};
     explicit.$inject = ['serviceA'];
     $injector.invoke(explicit);
 
-    // inline
+    // 3.数组内联式注入
+    // inline 
     $injector.invoke(['serviceA', function(serviceA){}]);
 ![](injector1.png)
 ####instantiate
