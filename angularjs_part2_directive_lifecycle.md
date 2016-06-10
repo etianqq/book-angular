@@ -14,3 +14,6 @@
   
 ####post-link
 如果在指令中返回一个函数，或者link属性为一个函数，那么默认是post-link函数。
+
+
+![](directive-lifecycle2.png)
