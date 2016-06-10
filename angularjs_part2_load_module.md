@@ -15,7 +15,7 @@ Angularjs模块可以在被加载和执行前对其自身进行配置。
       directive('directiveName', ...).
       filter('filterName', ...);
 
-    // is same as
+    // Angular在编译时会执行这些函数，is same as
     
     angular.module('myModule', []).
       config(function($provide, $compileProvider, $filterProvider) {
