@@ -13,7 +13,7 @@ ngModelController负责管理存储在模型(ngModel)中的值与Input元素显�
 ####model和view之间的值转换
 ![](ngModel2.png)
 
-####validation
+####表单验证
 每一个form指令都会创建一个**ngFormController**的实例。
 
 ngFormController对象管理表单的valid/invalid/pristine/dirty...状态，并与ngModelController协同工作跟踪表单中的每个ngModel字段。
@@ -26,6 +26,19 @@ ngFormController对象管理表单的valid/invalid/pristine/dirty...状态，并
 | $dirty | ng-dirty | ***Boolean*** True if the form/input has been used. |
 | $touched | ng-touched | ***Boolean** True if the input has been blurred. |
 
+* validation rule有：required, ng-pattern, min, max, minLength, maxLength
+* validation css style有：
+
+    {
+        .ng-valid { }
+        .ng-invalid{}
+        .ng-pristine{}
+        .ng-dirty{}
+        .ng-touched{}
+        .ng-invalid-required{}
+        .ng-invalid-minlength{}
+        .ng-valid-max-length{} 
+    }
 
 
 
