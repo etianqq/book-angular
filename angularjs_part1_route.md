@@ -21,9 +21,9 @@ HTML如下：
             templateUrl: 'views/home.html',
             controller: 'HomeController'
           })
-          .when('/login', {
-            templateUrl: 'views/login.html',
-            controller: 'LoginController'
+          .when('/inbox/:name', {
+            templateUrl: 'views/inbox.html',
+            controller: 'InboxController'
           })
           .when('/dashboard', {
             templateUrl: 'views/dashboard.html',
