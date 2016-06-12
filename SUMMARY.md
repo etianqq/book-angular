@@ -10,10 +10,10 @@
    * [表达式(expression)](angularjs_part1_expression.md)
    * [过滤器(filter)](angularjs_part1_filter.md)
    * [指令(directive)](angularjs_part1_directive.md)
+   * 表单
    * [路由(route)](angularjs_part1_route.md)
    * [服务(service)](angularjs_part1_service.md)
    * [XHR](angularjs_part1_xhr.md)
-   * 表单
 * [进阶知识](angularjs_part2.md)
    * [模块加载](angularjs_part2_load_module.md)
    * [依赖注入-DI](angularjs_part2_DI.md)
