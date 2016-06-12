@@ -12,3 +12,5 @@
         // This is called when the response
         // comes back with an error status
     });
+    
+####使用$resource
