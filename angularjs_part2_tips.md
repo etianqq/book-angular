@@ -51,5 +51,9 @@
 * ng-if: 不创建DOM元素
 * ng-show: 用display:none将DOM元素隐藏
 
+####7. copy()/extend()
+* angular.copy(): 支持deep copy
+* angular.extend(): 不支持 deep copy
+
 
     
