@@ -1,2 +1,2 @@
-# Angularjs简明讲义
+#Angularjs简明讲义
 
