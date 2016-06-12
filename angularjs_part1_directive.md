@@ -1,5 +1,11 @@
 # 指令(directive)
 
+分为内置指令和自定义指令。
+####内置指令
+内置指令大多是以ng-XXX命名。
+
+####自定义指令
+
     angular.module('app', []).directive('myDirective', function() {
       return {
           restrict: String,               
@@ -25,3 +31,5 @@
               }
         };
      });
+
+
