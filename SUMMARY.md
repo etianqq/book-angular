@@ -21,7 +21,7 @@
    * [脏检查机制](angularjs_part2_dirty_check.md)
    * [指令的生命周期](angularjs_part2_directive_lifecycle.md)
    * [AOP机制](angularjs_part2_AOP.md)
+   * 嵌套表单
    * [杂项知识点](angularjs_part2_tips.md)
    * [例子](angularjs_part2_example.md)
-   * 嵌套表单
 
