@@ -14,3 +14,4 @@
     });
     
 ####使用$resource
+支持标准restful数据模型
