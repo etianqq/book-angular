@@ -20,7 +20,6 @@
    * [Injector](angularjs_part2_injector.md)
    * [脏检查机制](angularjs_part2_dirty_check.md)
    * [指令的生命周期](angularjs_part2_directive_lifecycle.md)
-   * [表单验证](angularjs_part1_form_validation.md)
    * [AOP机制](angularjs_part2_AOP.md)
    * [杂项知识点](angularjs_part2_tips.md)
    * [例子](angularjs_part2_example.md)
