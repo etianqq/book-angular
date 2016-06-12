@@ -8,6 +8,7 @@
 * provider: 上述所有服务工厂都是由$provider服务创建的
 
 服务指令对比表
+
 | 类型 | Factory | Service | Value | Constant | Provider |
 | -- | -- | -- | -- | -- | -- |
 | 可以依赖其他服务 | 是 | 是 | 否 | 否 | 是 |
