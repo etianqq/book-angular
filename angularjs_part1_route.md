@@ -37,4 +37,10 @@ HTML如下：
           .otherwise({
             redirectTo: '/'
           });
-    }]);
+    }])
+    .controller('InboxController', function($scope, $routeParams){
+      console.log($routeParams.name);
+    })
+    .controller('DashboardController', function($scope, $routeParams, user){
+      // 可以使用user obj
+    });
