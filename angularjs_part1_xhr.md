@@ -1,6 +1,6 @@
 # XHR
 
-####使用$http
+####使用$http(内置)
 
     $http({
       method: 'GET',
@@ -15,3 +15,5 @@
     
 ####使用$resource
 支持标准restful数据模型
+
+####使用Restangular
