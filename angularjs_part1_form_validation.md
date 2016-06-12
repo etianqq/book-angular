@@ -8,5 +8,5 @@
 
 ![](ngModel.jpg)
 
-
+ngModelController负责管理存储在模型(ngModel)中的值与Input元素显示值之间的数据绑定。
 
