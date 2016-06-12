@@ -38,6 +38,7 @@ HTML如下：
             redirectTo: '/'
           });
     }])
+    .run()
     .controller('InboxController', function($scope, $routeParams){
       console.log($routeParams.name);
     })
