@@ -15,6 +15,7 @@ HTML如下：
 定义路由
 
     angular.module('myApp', []).
+      // 配置路由
       config(['$routeProvider', function($routeProvider) {
         $routeProvider
           .when('/', {
@@ -38,10 +39,16 @@ HTML如下：
             redirectTo: '/'
           });
     }])
-    .run()
+    // 监听路由变化
+    .run(['$rootScope', '$location', function($rootScope, $location) {
+        // 路由事件: $routeChangeStart/$routeChangeSuccess/$routeChangeError
+        $rootScope.$on('$routeChangeStart', function(evt, next, current) {...})
+    }])
+    // 使用路由里的$routeParams
     .controller('InboxController', function($scope, $routeParams){
       console.log($routeParams.name);
     })
+    // 使用路由resolve中定义的对象
     .controller('DashboardController', function($scope, $routeParams, user){
       // 可以使用user obj
     });
