@@ -52,3 +52,8 @@ HTML如下：
     .controller('DashboardController', function($scope, $routeParams, user){
       // 可以使用user obj
     });
+    
+####ui-route
+非常流行的Angular路由插件，提供了路由嵌套和视图命名的特性。
+
+[https://github.com/angular-ui/ui-router](https://github.com/angular-ui/ui-router)
