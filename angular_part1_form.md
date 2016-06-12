@@ -13,6 +13,9 @@ ngModelController负责管理存储在模型(ngModel)中的值与Input元素显�
 ####model和view之间的值转换
 ![](ngModel2.png)
 
+####validation
+每一个form指令都会创建一个**ngFormController**的实例。
 
+ngFormController对象管理表单的valid/invalid/pristine/dirty...状态，并与ngModelController协同工作跟踪表单中的每个ngModel字段。
 
 
