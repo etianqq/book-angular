@@ -2,7 +2,7 @@
 
 从1.2版本起，路由ngRoute成为单独的模块发布，所以需要先安装ngRoute才能使用：[https://docs.angularjs.org/api/ngRoute](https://docs.angularjs.org/api/ngRoute)
 
-####使用ngRoute
+####使用ngRoute 
 HTML如下：
 
     <script src="path/to/angular.js"></script>
