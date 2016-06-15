@@ -2,7 +2,7 @@
 
 指令从开始解析道生效，会经历如下阶段：
 
-```Inject```->```compile```->```controller```->```pre-link```->```post-link```
+```Inject```->```compile```->```controller```->```pre-link```->```post-link``` 
 ![](directive-lifecycle.png)
 
 ####controller
