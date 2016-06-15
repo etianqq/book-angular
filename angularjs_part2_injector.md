@@ -2,7 +2,7 @@
 
 使用apply实现依赖注入
 
-####instance-Injector
+####instance-Injector 
     return {
       invoke: invoke(fn, [self], [locals]),  // return none
       instantiate: instantiate(Type, [locals]),  // return 一个新实例
