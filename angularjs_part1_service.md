@@ -7,7 +7,7 @@
 * factory: 注册一个对象型的服务，是创建和配置服务最快捷的方式
 * provider: 上述所有服务工厂都是由$provider服务创建的
 
-服务指令对比表
+服务指令对比表 
 
 | 类型 | Factory | Service | Value | Constant | Provider |
 | -- | -- | -- | -- | -- | -- |
