@@ -4,7 +4,7 @@
 
 * 使用了原型继承的方式，下级的scope可以读取上级scope的属性。
 
-* 最顶级的scope是$rootScope。
+* 最顶级的scope是$rootScope。 
 
 例子：
 
