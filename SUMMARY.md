@@ -13,6 +13,7 @@
    * [路由(route)](angularjs_part1_route.md)
    * [服务(service)](angularjs_part1_service.md)
    * [XHR](angularjs_part1_xhr.md)
+   * 过滤器(filer)
 * [进阶知识](angularjs_part2.md)
    * [模块加载](angularjs_part2_load_module.md)
    * [依赖注入-DI](angularjs_part2_DI.md)
