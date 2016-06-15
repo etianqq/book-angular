@@ -5,7 +5,10 @@
  
 例子：
 
-1. 使用表达式：```{{ name | uppercase }}```
+1. 使用表达式：
+
+        {{ name | uppercase }}
+      
 2. 使用$filter来调用过滤器：
 
         app.controller('DemoController', ['$scope', '$filter',
