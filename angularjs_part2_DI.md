@@ -1,7 +1,7 @@
 # 依赖注入-DI
 DI-dependency injection
 
-* “需要哪个对象，就可以得到哪个对象！”
+* “需要哪个对象，就可以得到哪个对象！” 
 
 * Angular在每个module上都有一个注册表，里面对象名称和相应的callback function。
 
