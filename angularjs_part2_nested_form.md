@@ -1,6 +1,6 @@
 # 嵌套表单
 
-使用ng-form实现嵌套表单
+使用ng-form实现嵌套表单 
 
     <form name="userForm" novalidate>
       <div class="form-group" ng-repeat="user in formData.users">
