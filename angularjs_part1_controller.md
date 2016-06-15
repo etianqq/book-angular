@@ -1,6 +1,6 @@
 # 控制器(controller)
 * 是一个函数，用来向视图的作用域中添加额外的功能。
-* 初始化数据，定义事件，等等
+* 初始化数据，定义事件，等等 
 
       <div ng-controller="FirstController">
         <button ng-click="add(1)" class="button">Add</button>
