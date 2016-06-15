@@ -13,7 +13,7 @@
 * $observe: 监听DOM中属性的变化，只能在directive的link函数中使用。
 * $watch: 监听scope中属性值的变化
 
-如果directive的DOM上使用{{}}表达式，那么应该用observe。其他大多数情况使用watch。
+如果directive的DOM上使用{}表达式，那么应该用observe。其他大多数情况使用watch。
 
 ####3.'one-time'绑定
 如果都是静态数据，不需要watch，怎么做？
