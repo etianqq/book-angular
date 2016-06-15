@@ -20,7 +20,7 @@
 使用**one-time**绑定(Angular 1.3之后引入的)
 
 两种实现方式：
-* ```{{::text}}```
+* ```{::text}```
 * 使用bindonce库:[https://github.com/Pasvaz/bindonce](https://github.com/Pasvaz/bindonce)
 
 ####4.$sce服务
