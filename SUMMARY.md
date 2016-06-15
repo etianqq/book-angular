@@ -8,7 +8,6 @@
    * [作用域(scope)](angularjs_part1_scope.md)
    * [控制器(controller)](angularjs_part1_controller.md)
    * [表达式(expression)](angularjs_part1_expression.md)
-   * [过滤器(filter)](angularjs_part1_filter.md)
    * [指令(directive)](angularjs_part1_directive.md)
    * [表单(form)](angularjs_part1_form.md)
    * [路由(route)](angularjs_part1_route.md)
