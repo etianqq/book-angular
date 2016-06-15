@@ -1,7 +1,6 @@
 # Summary
 
 * [Angularjs基础知识](angularjs_part1.md)
-   * [Introduction](README.md)
    * [简介](angularjs_part1_intro.md)
    * [Angular启动过程](angularjs_part1_start.md)
    * [模块(module)](angularjs_part1_module.md)
