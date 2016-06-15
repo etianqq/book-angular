@@ -1,6 +1,6 @@
 # AOP机制
 
-####什么是AOP
+####什么是AOP 
 AOP(Aspect-Oriented Programming)，面向切面编程。
 
 通过compile时植入代码，runtime时动态代理，以及框架提供管道式执行等策略实现程序**通用功能与业务模块的分离**，统一处理，维护的一种**解耦设计**。
