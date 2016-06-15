@@ -1,8 +1,8 @@
 # Summary
 
 * [Angularjs基础知识](angularjs_part1.md)
+   * [Introduction](README.md)
    * [简介](angularjs_part1_intro.md)
-   * [Angularjs简明讲义](README.md)
    * [Angular启动过程](angularjs_part1_start.md)
    * [模块(module)](angularjs_part1_module.md)
    * [作用域(scope)](angularjs_part1_scope.md)
