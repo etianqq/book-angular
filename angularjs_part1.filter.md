@@ -6,7 +6,7 @@
 
 1. 使用表达式：
 
-        {{name||uppercase}}
+ ![](filter.png)
       
 2. 使用$filter来调用过滤器：
 
