@@ -26,5 +26,4 @@
        * [例子](angularjs_part2_example.md)
    * [设计模式](angularjs_part3.md)
        * [控制反转](angularjs_part3_IoC.md)
-   * [控制反转](angularjs_part2_IoC.md)
 
