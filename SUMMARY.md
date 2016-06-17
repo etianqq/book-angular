@@ -24,4 +24,5 @@
    * [嵌套表单](angularjs_part2_nested_form.md)
    * [杂项知识点](angularjs_part2_tips.md)
    * [例子](angularjs_part2_example.md)
+   * 控制反转
 
