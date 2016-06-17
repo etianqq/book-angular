@@ -27,4 +27,5 @@
    * [设计模式](angularjs_part3.md)
        * [面向对象的基本原则](angularjs_part3_oo.md)
        * [控制反转](angularjs_part3_IoC.md)
+       * 装饰器模式
 
