@@ -25,6 +25,6 @@
        * [杂项知识点](angularjs_part2_tips.md)
        * [例子](angularjs_part2_example.md)
    * [设计模式](angularjs_part3.md)
-       * 面向对象的基本原则
+       * [面向对象的基本原则](angularjs_part3_oo.md)
        * [控制反转](angularjs_part3_IoC.md)
 
