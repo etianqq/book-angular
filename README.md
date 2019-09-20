@@ -8,8 +8,10 @@ Gitbook: [https://etianqq.github.io/book-angular/](https://etianqq.github.io/boo
 
 其他书籍：
 
-* [HTTP讲义](https://etianqq.github.io/book-http/)
-* [Javascript简明讲义](https://etianqq.github.io/book-jstips/)
+* [Javascript简明讲义](https://etianqq.github.io/book-jstips/)
+* [HTTP讲义](https://etianqq.github.io/book-http/)
+* [Node讲义](https://etianqq.github.io/book-node/)
+* [VUE2.0讲义](https://etianqq.github.io/book-vue2/)
 
 #### Debug
 
