@@ -1,0 +1,28 @@
+{
+  "name": "book-angular",
+  "version": "1.0.0",
+  "description": "angular",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "node_modules/.bin/gulp deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etianqq/book-angular.git"
+  },
+  "keywords": [
+    "angular",
+    "1.0"
+  ],
+  "author": "etianqq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/etianqq/book-angular/issues"
+  },
+  "homepage": "https://github.com/etianqq/book-angular#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-gh-pages": "^0.5.4"
+  }
+}
