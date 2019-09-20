@@ -4,7 +4,7 @@ Angularjs学习教案，涵盖了基本语法，和重要的原理性知识。
 
 #### 电子书
 
-Gitbook: [https://etianqq.github.io/book-jstips/](https://etianqq.github.io/book-jstips/)
+Gitbook: [https://etianqq.github.io/book-angular/](https://etianqq.github.io/book-angular/)
 
 其他书籍：
 
